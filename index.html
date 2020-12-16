@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="thestyles.css">
+    <title>Insert Search data using js oop</title>
+</head>
+<body>
+    <div id="container">
+        <div id='search-input'>
+            <input type="text" id='search' placeholder="Search">
+        </div>
+        <form id='data-form'onsubmit="return submitData(event)">
+            <div id='title-input'>
+                <input type="text" id='title' placeholder="Title">
+            </div>
+            <div id='author-input'>
+                <input type="text" id='author' placeholder="Author">
+            </div>
+            <div id='content-input'>
+               <textarea id='content' form='data-form' ></textarea>
+            </div>
+            <div id='submit-input'>
+                <input type="submit" id='form-submit' value="Submit">
+            </div>
+        </form>
+    </div>
+    <script src='app.js'></script>
+</body>
+</html>
